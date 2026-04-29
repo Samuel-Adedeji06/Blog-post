@@ -344,7 +344,7 @@ avatarClass: "from-pink-500 to-rose-500",
          <nav className="mt-8 flex flex-col gap-1">
   {navItems.map((item, index) => (
     <Link
-      href={item.label === "Explore" ? "/explore" : "#"}
+      href={item.label === "Explore" ? "/explore" : "activity"}
       key={item.label}
       className={`group flex items-center gap-3 rounded-2xl px-3 py-2.5 text-left text-sm font-medium transition ${
         index === 0
